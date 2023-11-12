@@ -2,12 +2,13 @@
 
 To run the code, 
 First install these libraires
-    torchvision==0.8.1+cu110
-    numpy==1.19.4
-    torch==1.7.0+cu110
+   - torchvision==0.8.1+cu110
+   - numpy==1.19.4
+   - torch==1.7.0+cu110
 
-step1 - download the provided folder
-step2 - Go to the root directory of main.py file
+# How to use
+- step1 - download the provided folder
+- step2 - Go to the root directory of main.py file
 
 step3. Now to get the results run the following scripts in the terminal of any IDE such as PyCharm, VsCode or Spyder
   For FashionMNIST
