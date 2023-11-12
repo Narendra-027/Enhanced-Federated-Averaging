@@ -12,33 +12,25 @@ step2 - Go to the root directory of main.py file
 step3. Now to get the results run the following scripts in the terminal of any IDE such as PyCharm, VsCode or Spyder
   For FashionMNIST
   1. wait-minibatch
-```
-  python3 main.py -data fashion -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.1 -lr-global 1.0 -wait-all 1 -full-batch 0 -out fashion_wait_minibatch.csv
-```
+```python3 main.py -data fashion -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.1 -lr-global 1.0 -wait-all 1 -full-batch 0 -out fashion_wait_minibatch.csv```
   2. wait-full
-```
-  python3 main.py -data fashion -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.1 -lr-global 1.0 -wait-all 1 -full-batch 1 -out fashion_wait_full.csv
-```
+``` python3 main.py -data fashion -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.1 -lr-global 1.0 -wait-all 1 -full-batch 1 -out fashion_wait_full.csv```
   3. algo1 without amplification
-```
-  python3 main.py -data fashion -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.00001 -lr-global 1.0 -out fashion_alg1_no_amplify.csv
-```
+```python3 main.py -data fashion -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.00001 -lr-global 1.0 -out fashion_alg1_no_amplify.csv```
   4. algo1. with amplification
-```
-  python3 main.py -data fashion -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.00001 -lr-global 10.0 -out fashion_alg1_amplify.csv
-```
+```python3 main.py -data fashion -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.00001 -lr-global 10.0 -out fashion_alg1_amplify.csv```
   
   
   
   For GTSRB
   1. wait-minibatch
-  python3 main.py -data gtsrb -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.1 -lr-global 1.0 -wait-all 1 -full-batch 0 -out gtsrb_wait_minibatch.csv
+  ```python3 main.py -data gtsrb -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.1 -lr-global 1.0 -wait-all 1 -full-batch 0 -out gtsrb_wait_minibatch.csv```
   2. wait-full
-  python3 main.py -data gtsrb -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.1 -lr-global 1.0 -wait-all 1 -full-batch 1 -out gtsrb_wait_full.csv
+  ```python3 main.py -data gtsrb -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.1 -lr-global 1.0 -wait-all 1 -full-batch 1 -out gtsrb_wait_full.csv```
   3. algo1 without amplification
-  python3 main.py -data gtsrb -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.00001 -lr-global 1.0 -out gtsrb_alg1_no_amplify.csv
+  ```python3 main.py -data gtsrb -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.00001 -lr-global 1.0 -out gtsrb_alg1_no_amplify.csv```
   4. algo1. with amplification
-  python3 main.py -data gtsrb -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.00001 -lr-global 10.0 -out gtsrb_alg1_amplify.csv
+  ```python3 main.py -data gtsrb -availability periodic -seeds 1 -lr-warmup 0.1 -iters-warmup 10000 -iters-total 1500000 -lr 0.00001 -lr-global 10.0 -out gtsrb_alg1_amplify.csv```
 
 
 Results will be saved in the csv files named in the scripts (after the -out)
