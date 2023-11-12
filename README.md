@@ -9,8 +9,7 @@ First install these libraires
 # How to use
 - step1 - download the provided folder
 - step2 - Go to the root directory of main.py file
-
-step3. Now to get the results run the following scripts in the terminal of any IDE such as PyCharm, VsCode or Spyder
+- step3. Now to get the results run the following scripts in the terminal of any IDE such as PyCharm, VsCode or Spyder
   For FashionMNIST
   1. wait-minibatch
 ```
